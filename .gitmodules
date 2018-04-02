@@ -1,0 +1,3 @@
+[submodule "lang_compression"]
+	path = lang_compression
+	url = https://github.com/glupyan/lang_compression.git

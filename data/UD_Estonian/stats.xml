@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>8675</sentences><tokens>106829</tokens><words>106829</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="14062" /><!-- ., ,, olema, ", ja, tema, see, mina, et, ei, kui, mis, !, aga, ning -->
+  <forms unique="24820" /><!-- ., ,, ", ja, on, et, ei, ta, oli, kui, !, aga, ning, ka, see -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">7839</tag><!-- suur, viimane, esimene, hea, uus, teine, suurem, pikk, parem, erinev -->
+    <tag name="ADP">2603</tag><!-- üle, pärast, eest, mööda, poole, peale, juurde, vahel, kohta, järgi -->
+    <tag name="ADV">11137</tag><!-- ka, siis, nii, kas, veel, välja, ära, juba, küll, väga -->
+    <tag name="AUX">5224</tag><!-- olema, ei, võima, pidama, saama, ole, ära, näima, tohtima, tunduma -->
+    <tag name="CCONJ">3920</tag><!-- ja, ning, aga, või, kuid, ega, kui, vaid, ent, ehk -->
+    <tag name="DET">16</tag><!-- see, üks, iga, sama, teine, kogu, milline, mõni, mõningas -->
+    <tag name="INTJ">229</tag><!-- noh, no, issand, tere, ah, kurat, dõnga-dõnga-tõhh, no_jah, ahah, oh -->
+    <tag name="NOUN">25426</tag><!-- aasta, inimene, aeg, töö, töö_hõive, mees, käsi, asi, tuba, a -->
+    <tag name="NUM">1558</tag><!-- kaks, üks, kolm, neli, paar, 2001, 2, kümme, viis, 1 -->
+    <tag name="PRON">8449</tag><!-- tema, see, mina, mis, sina, kes, oma, ise, kõik, teine -->
+    <tag name="PROPN">4725</tag><!-- eesti, Jan, Peeter, Hiina, Tsee, Euroopa, Tõnu, Jooga, Ott, Karuks -->
+    <tag name="PUNCT">19659</tag><!-- ., ,, ", !, ?, ), (, :, -, ... -->
+    <tag name="SCONJ">2163</tag><!-- et, kui, nagu, sest, kuna, kuigi, ehkki, kuni, just_kui, otse_kui -->
+    <tag name="SYM">55</tag><!-- %, ?, &, =, EEK, 340B, 6B, A, AC, B,C,D,E -->
+    <tag name="VERB">13712</tag><!-- olema, tulema, tegema, saama, minema, ütlema, jääma, võtma, teadma, hakkama -->
+    <tag name="X">114</tag><!-- in, tõ, of, Proopusk, jesh, la, mõ, ne, stupai, the -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="60">
+    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,SYM,VERB,X">480</feat><!-- a., a, st, USA, sh, ETU, ca, EL, nn, ETV -->
+    <feat name="AdpType" value="Post" upos="ADP">1964</feat><!-- eest, poole, juurde, vahel, kohta, järgi, all, peale, jooksul, puhul -->
+    <feat name="AdpType" value="Prep" upos="ADP">634</feat><!-- üle, mööda, pärast, läbi, koos, vastu, enne, alates, kuni, peale -->
+    <feat name="Case" value="Abe" upos="ADJ,NOUN,PRON,PROPN,VERB">124</feat><!-- arvestamata, suutmata, alustamata, koputamata, küsimata, lahkumata, lausumata, minuta, mõistmata, mõtlemata -->
+    <feat name="Case" value="Abl" upos="ADJ,NOUN,NUM,PRON,PROPN">266</feat><!-- töölt, ühelt, maalt, minult, seisukohalt, laevalt, põrandalt, taldrikult, teelt, temalt -->
+    <feat name="Case" value="Add" upos="ADJ,NOUN,NUM,PRON,PROPN">715</feat><!-- tuppa, kööki, koju, kätte, meelde, pähe, selga, linna, jalga, maailma -->
+    <feat name="Case" value="Ade" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2275</feat><!-- aastal, mul, tal, ajal, aastatel, sel, perioodil, hommikul, sul, alusel -->
+    <feat name="Case" value="All" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1628</feat><!-- talle, mulle, sellele, tööhõivele, sulle, endale, põrandale, meile, tööle, neile -->
+    <feat name="Case" value="Com" upos="ADJ,NOUN,NUM,PRON,PROPN,SYM">1271</feat><!-- sellega, osaajaga, punktiga, temaga, käega, millega, kõrvaltöödega, minuga, häälega, jalaga -->
+    <feat name="Case" value="Ela" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1707</feat><!-- sellest, millest, neist, aastast, temast, endast, hommikust, seljast, aknast, toast -->
+    <feat name="Case" value="Ess" upos="ADJ,NOUN,NUM,PRON,PROPN">177</feat><!-- reeglina, tervikuna, põhjusena, haigena, tegurina, teisena, tulemusena, ainsana, ajakirjanikuna, esimesena -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,SYM,X">11021</feat><!-- oma, eesti, selle, tema, nende, ta, minu, tööhõive, mu, mille -->
+    <feat name="Case" value="Ill" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1090</feat><!-- olema, minema, tegema, masinatesse, vaatama, magama, voodisse, hakkama, võtma, ehitistesse -->
+    <feat name="Case" value="Ine" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2182</feat><!-- selles, toas, Eestis, Hiinas, olemas, alguses, lõpus, maailmas, teises, elus -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,SYM,X">17365</feat><!-- ta, see, ma, mis, kes, nad, sa, kõik, Jan, üks -->
+    <feat name="Case" value="Par" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">6222</feat><!-- seda, mida, midagi, mind, teda, neid, end, aega, korda, aru -->
+    <feat name="Case" value="Ter" upos="ADJ,NOUN,NUM,PRON,PROPN">151</feat><!-- õhtuni, aastani, lõpuni, meieni, päevani, surmani, vaatajateni, detsembrini, falsetini, keskpaigani -->
+    <feat name="Case" value="Tra" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">907</feat><!-- selleks, lisaks, põhjuseks, hulluks, igaks, juhuks, üheks, tühjaks, kindlaks, puhtaks -->
+    <feat name="Connegative" value="Yes" upos="AUX,VERB">1049</feat><!-- ole, saa, olnud, tea, saanud, teadnud, taha, tulnud, suutnud, osanud -->
+    <feat name="Degree" value="Cmp" upos="ADJ">547</feat><!-- suurem, kõrgem, parem, suurema, tähtsam, kõrgema, parema, madalam, pikem, suuremat -->
+    <feat name="Degree" value="Pos" upos="ADJ">6394</feat><!-- hea, suur, viimase, keskmise, kõrge, võimalik, oluline, tehtud, suure, teatud -->
+    <feat name="Degree" value="Sup" upos="ADJ">84</feat><!-- kõrgeim, parim, parima, suurim, parimad, suurima, enim, kõrgeima, lähima, olulisimad -->
+    <feat name="Foreign" value="Yes" upos="ADV,NOUN,PROPN,X">84</feat><!-- tõ, Holy, Night, O, Proopusk, in, jesh, la, mõ, ne -->
+    <feat name="Hyph" value="Yes" upos="ADJ,NOUN,NUM,PROPN,PUNCT,SYM">96</feat><!-- –, täis-, Kesk-, Reformi-, pika-, sise-, –-, 2000-, 2004-, A- -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">489</feat><!-- oleks, ei, peaks, võiks, poleks, oleksid, saaks, tuleks, oleksin, tahaks -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">344</feat><!-- tule, vaata, ära, kuule, tee, mine, näe, ole, olgu, võta -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">13829</feat><!-- on, oli, ei, olid, võib, pole, ütles, polnud, ole, olen -->
+    <feat name="Mood" value="Qot" upos="AUX,VERB">54</feat><!-- olevat, elustavat, meeldivat, tulevat, arutlevat, hääbuvat, jälgivat, kõnelevat, külmetavat, langevat -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10487</feat><!-- on, nad, olid, nende, need, kõik, meie, neid, kes, me -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB,X">47515</feat><!-- on, ta, oli, see, ma, mis, oma, seda, eesti, tema -->
+    <feat name="NumForm" value="Digit" upos="ADJ,NUM,SYM">1268</feat><!-- 2001, 2, 2000., 1, 2000, %, 1999., 10, 1998., 2001. -->
+    <feat name="NumForm" value="Letter" upos="ADJ,NUM,PROPN">865</feat><!-- kaks, üks, esimest, kolm, kahe, paar, neli, viis, esimene, kümme -->
+    <feat name="NumForm" value="Roman" upos="ADJ">29</feat><!-- II, III, I, IV, V, VI, VIII, X -->
+    <feat name="NumType" value="Card" upos="NUM,SYM">1577</feat><!-- kaks, 2001, üks, 2, kolm, 1, kahe, paar, 2000, % -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM,PROPN">670</feat><!-- 2000., esimest, 90ndate, 1999., esimene, teise, 1998., 2001., teine, 1997. -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">2804</feat><!-- ma, mind, minu, mina, mul, meie, olen, mu, me, olin -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">1130</feat><!-- sa, oled, sulle, sinu, te, sul, tule, vaata, sind, su -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PRON,VERB">11377</feat><!-- on, ta, oli, tema, nad, olid, võib, ütles, talle, teda -->
+    <feat name="Polarity" value="Neg" upos="ADV,AUX,CCONJ,VERB">1504</feat><!-- ei, pole, mitte, polnud, ega, poleks, ära, polegi, polnudki, ärge -->
+    <feat name="Poss" value="Yes" upos="PRON">302</feat><!-- oma, omal, omas, omad, omaks, omaenda, omaenese, omalt, endal, endast -->
+    <feat name="PronType" value="Dem" upos="ADJ,DET,PRON">2010</feat><!-- see, seda, selle, need, sellest, nende, sel, neid, selles, sellele -->
+    <feat name="PronType" value="Ind" upos="ADJ,DET,PRON">777</feat><!-- midagi, keegi, üks, ühe, muud, mõne, mõni, mingit, mõned, mingi -->
+    <feat name="PronType" value="Int" upos="DET,PRON">2</feat><!-- kes, milline -->
+    <feat name="PronType" value="Int,Rel" upos="ADJ,ADV,PRON">946</feat><!-- mis, kes, mida, mille, kelle, millest, keda, millega, milles, millel -->
+    <feat name="PronType" value="Prs" upos="NOUN,PRON">4199</feat><!-- ta, ma, oma, tema, nad, sa, mind, talle, teda, minu -->
+    <feat name="PronType" value="Rcp" upos="PRON">16</feat><!-- teineteise, teineteisele, teineteist, üksteisele, teineteisega, teineteises, teineteisest, üksteise, üksteisest, üksteist -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON">59</feat><!-- mis, kes, mida, mille, milline, millised, kelle, kellel, millise, milliseid -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">496</feat><!-- kõik, kogu, iga, igal, mitu, kõike, kõiki, mõlemad, terve, kõigil -->
+    <feat name="Reflex" value="Yes" upos="PRON">346</feat><!-- end, ise, ennast, enda, endale, endast, enesele, endal, enese, omal -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">1054</feat><!-- liigutas, oli, viskus, tõukas, liikus, tatsas, prantsatas, sõidutas, tilkus, liikusid -->
+    <feat name="Tense" value="Past" upos="ADJ,AUX,NOUN,VERB">8484</feat><!-- oli, olid, olnud, ütles, polnud, saanud, tuli, jäi, olin, küsis -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">6983</feat><!-- on, võib, pole, oleks, ole, olen, tuleb, saab, saa, oled -->
+    <feat name="VerbForm" value="Conv" upos="AUX,VERB">297</feat><!-- olles, vaadates, arvates, nähes, hoides, minnes, tehes, tulles, tundes, vaikides -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">14716</feat><!-- on, ei, oli, olid, võib, pole, ütles, oleks, polnud, ole -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">98</feat><!-- võrreldes, langedes, ulatudes, arvestades, hakates, luues, suurendades, eeldades, minnes, olles -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">1657</feat><!-- teha, olla, saada, minna, näha, teada, võtta, öelda, panna, leida -->
+    <feat name="VerbForm" value="Part" upos="ADJ,ADV,AUX,NOUN,VERB">2846</feat><!-- olnud, saanud, tehtud, kasvanud, seotud, jäänud, toimunud, tõusnud, hõivatud, muutunud -->
+    <feat name="VerbForm" value="Sup" upos="ADJ,AUX,VERB">848</feat><!-- olema, minema, olemas, tegema, vaatama, magama, hakkama, võtma, maksma, otsima -->
+    <feat name="Voice" value="Act" upos="ADJ,ADV,AUX,NOUN,VERB">16339</feat><!-- on, oli, olid, võib, olnud, pole, ütles, oleks, polnud, ole -->
+    <feat name="Voice" value="Pass" upos="ADJ,AUX,NOUN,VERB">1091</feat><!-- tehtud, seotud, hõivatud, teatud, hõivatute, suunatud, huvitav, antud, toodud, tehti -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="38">
+    <dep name="acl">1341</dep>
+    <dep name="acl:relcl">839</dep>
+    <dep name="advcl">2046</dep>
+    <dep name="advmod">8434</dep>
+    <dep name="advmod:quant">151</dep>
+    <dep name="amod">5027</dep>
+    <dep name="appos">455</dep>
+    <dep name="aux">2891</dep>
+    <dep name="case">2588</dep>
+    <dep name="cc">3925</dep>
+    <dep name="cc:preconj">110</dep>
+    <dep name="ccomp">684</dep>
+    <dep name="compound">57</dep>
+    <dep name="compound:prt">1478</dep>
+    <dep name="conj">5288</dep>
+    <dep name="cop">2326</dep>
+    <dep name="csubj">210</dep>
+    <dep name="csubj:cop">146</dep>
+    <dep name="dep">3</dep>
+    <dep name="det">1522</dep>
+    <dep name="discourse">190</dep>
+    <dep name="flat">723</dep>
+    <dep name="flat:foreign">49</dep>
+    <dep name="list">19</dep>
+    <dep name="mark">2571</dep>
+    <dep name="nmod">7113</dep>
+    <dep name="nmod:poss">7</dep>
+    <dep name="nsubj">7637</dep>
+    <dep name="nsubj:cop">2071</dep>
+    <dep name="nummod">1229</dep>
+    <dep name="obj">5054</dep>
+    <dep name="obl">9577</dep>
+    <dep name="orphan">42</dep>
+    <dep name="parataxis">1265</dep>
+    <dep name="punct">19659</dep>
+    <dep name="root">8675</dep>
+    <dep name="vocative">103</dep>
+    <dep name="xcomp">1324</dep>
+  </deps>
+</treebank>
