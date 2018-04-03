@@ -4,7 +4,7 @@
 
 This repository accompanies the paper:
 
-Lupyan, Gary & Thompson, Bill (2018) Morphosemantic Complexity
+Thompson, Bill & Lupyan, Gary (2018) Morphosemantic Complexity
 
 which will be presented at the *Measuring Language Complexity* (MLC) workshop, held at the Faculty of Languages NCU (Collegium Humanisticum, Torun) as a satellite event of EVOLANG XII in Torun, Poland in April 2018. The paper is included in this repository in the ```paper``` directory. 
 
